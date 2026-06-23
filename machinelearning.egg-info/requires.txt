@@ -1,0 +1,17 @@
+pandas>=2.2
+uvicorn
+scikit-learn>=1.5
+joblib>=1.4
+python-dotenv>=1.0
+azure.identity
+azure-ai-ml<2,>=1.24
+
+[dev]
+pytest>=8.2
+black>=24.4
+ruff>=0.4
+mypy>=1.10
+
+[nlp]
+nltk>=3.9
+gensim>=4.3

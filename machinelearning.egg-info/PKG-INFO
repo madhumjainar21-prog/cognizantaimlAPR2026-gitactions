@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: machinelearning
+Version: 0.1.0
+Summary: Supervised and unsupervised ML algorithm practice
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2
+Requires-Dist: uvicorn
+Requires-Dist: scikit-learn>=1.5
+Requires-Dist: joblib>=1.4
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: azure.identity
+Requires-Dist: azure-ai-ml<2,>=1.24
+Provides-Extra: nlp
+Requires-Dist: nltk>=3.9; extra == "nlp"
+Requires-Dist: gensim>=4.3; extra == "nlp"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: black>=24.4; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
